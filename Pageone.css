@@ -1,6 +1,4 @@
- 
- 
- .u-section-1 {
+.u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/fondoplanta.jpg");
   background-position: 50% 50%;
 }
@@ -80,11 +78,28 @@
   padding: 22px 49px;
 }
 
+
+#sec-c863 p{
+  font-family: Inconsolata;
+}
+
+
+
 .u-section-2 .u-image-1 {
   width: 301px;
   height: 361px;
   margin: 16px 17px -8px auto;
 }
+
+.u-section-2 .u-image-smartmockups {
+  width: 176px;
+  height: 480px;
+  margin: 16px 17px -8px auto;
+}
+
+
+
+
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {

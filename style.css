@@ -1,4 +1,5 @@
 
+
 #sec-99b2 h1
 {
   color: white;
@@ -20,12 +21,14 @@ header .logo{
   font-weight: bold;
   color: green;
   font-size: 1.6em;
+  
 }
 
 header .container{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 header nav{
@@ -33,6 +36,7 @@ header nav{
   flex-direction: row;
   text-align: center;
   padding-bottom: 25px;
+  
 }
 
 header a{
@@ -49,7 +53,9 @@ header nav{
   flex-direction: center;
   padding-bottom: 0;
   padding-right: 50px;
+  
 }
+
 
 
 
@@ -36966,6 +36972,18 @@ a.u-link.u-text-hover-grey-90:hover {
         }
 
 
+
+
+        .header{
+
+          font-style: normal;
+          letter-spacing: 0.02em;
+          padding: 0.2rem 0;
+          position: fixed;
+          z-index: 999;
+        }
+
+
         
 
 
@@ -37017,6 +37035,19 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-icon-4 {
   color: rgb(0, 122, 185) !important;
 }
+
+
+
+@media (max-width:1199)
+{
+          
+        .header{
+          position: fixed;
+        }
+
+}
+
+
 @media (max-width: 1199px) {
   .u-footer .u-text-1 {
     margin-top: -52px;
